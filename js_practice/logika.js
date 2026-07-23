@@ -28,3 +28,24 @@ function firstUnique(str) {
   return null;
 }
 console.log(firstUnique("leetcode"));
+
+/**
+ * Most Frequent Element
+ * ---------------------------------------------------------------
+ * Return the element that appears the MOST times in the array.
+ * If there's a tie, return any of the most frequent ones.
+ *
+ * Examples:
+ *   mostFrequent([1, 2, 2, 3, 3, 3])      =>  3
+ *   mostFrequent(["a", "b", "a", "a"])    =>  "a"
+ *   mostFrequent([5])                      =>  5
+ */
+function mostFrequent(arr) {
+
+    const count = new Map()
+    for(const element of arr){
+        if()
+    }
+}
+
+console.log(mostFrequent([1, 2, 2, 3, 3, 3])); // 3
